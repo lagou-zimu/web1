@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="homework_answer:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/homework_answer_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="homework_answer/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="homework_answer" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/jar/dom4j-1.6.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/jar/druid-1.0.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/jar/c3p0-0.9.5.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/jar/commons-dbcp-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/jar/jaxen-1.1-beta-6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/jar/commons-pool-1.5.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/jar/jackson-core-2.9.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/jar/commons-dbutils-1.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/jar/jackson-databind-2.11.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/jar/jackson-annotations-2.9.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/jar/mchange-commons-java-0.2.12.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/jar/mysql-connector-java-5.1.37-bin.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
